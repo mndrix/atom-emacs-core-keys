@@ -2,6 +2,8 @@
 
 Emacs key bindings for only core Atom functionality.
 
+See the [list of supported keys](keymaps/emacs-core-keys.cson).
+
 
 ## Why?
 
@@ -13,4 +15,4 @@ The most common GNU Emacs key bindings have a direct counterpart within Atom's c
 
 ... I want a mark, a kill ring, `C-l` to recenter, incremental search, etc.
 
-Most of those features are mutually independent.  They should be implemented as independent Atom packages so that users can pick and choose their favorites.
+Most of those features are mutually independent.  They can be implemented as independent Atom packages so that users can pick and choose their favorites.
