@@ -2,7 +2,7 @@
   "name": "emacs-core-keys",
   "version": "0.0.0",
   "description": "Emacs key bindings for only core Atom functionality",
-  "repository": "https://github.com/atom/emacs-core-keys",
+  "repository": "https://github.com/mndrix/atom-emacs-core-keys",
   "license": "Unlicense",
   "engines": {
     "atom": ">=0.174.0, <2.0.0"
