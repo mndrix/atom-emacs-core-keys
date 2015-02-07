@@ -1,6 +1,6 @@
 {
   "name": "emacs-core-keys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Emacs key bindings for only core Atom functionality",
   "repository": "https://github.com/mndrix/atom-emacs-core-keys",
   "license": "Unlicense",
