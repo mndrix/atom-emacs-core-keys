@@ -5,7 +5,7 @@
   "repository": "https://github.com/mndrix/atom-emacs-core-keys",
   "license": "Unlicense",
   "engines": {
-    "atom": ">=0.174.0, <2.0.0"
+    "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {}
 }
