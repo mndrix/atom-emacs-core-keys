@@ -27,9 +27,11 @@
     "ctrl-k ctrl-right": "unset!"
 
     # recreate emacs bindings
+    'alt-w': 'core:copy'
     'alt-x': 'command-palette:toggle'
     'ctrl-n': 'core:move-down'
     'ctrl-p': 'core:move-up'
+    'ctrl-w': 'core:cut'
     'ctrl-x 0': 'pane:close'
     'ctrl-x 1': 'pane:close-other-items'
     'ctrl-x 2': 'pane:split-down'
@@ -77,7 +79,6 @@
     'alt-m': 'editor:move-to-first-character-of-line'
     'alt-q': 'autoflow:reflow-selection'
     'alt-v': 'core:page-up'
-    'alt-w': 'core:copy'
     'ctrl-_': 'core:undo'
     'ctrl-/': 'core:undo'
     'ctrl-a': 'editor:move-to-beginning-of-line'
@@ -91,7 +92,6 @@
     'ctrl-shift-backspace': 'editor:delete-line'
     'ctrl-t': 'editor:transpose'
     'ctrl-v': 'core:page-down'
-    'ctrl-w': 'core:cut'
     'ctrl-x ctrl-c': 'core:close'
     'ctrl-x ctrl-l': 'editor:lower-case'
     'ctrl-x ctrl-s': 'core:save'
