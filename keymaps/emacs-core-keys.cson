@@ -62,7 +62,7 @@
     "ctrl-k ctrl-9": "unset!"
 
 
-'atom-text-editor':
+'.platform-linux atom-workspace atom-text-editor, atom-text-editor':
     # recreate emacs bindings
     'alt-;': 'editor:toggle-line-comments'
     'alt-.': 'symbols-view:toggle-file-symbols'
