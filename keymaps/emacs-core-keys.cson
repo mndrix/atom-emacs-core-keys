@@ -67,6 +67,7 @@
     'ctrl-/': 'core:undo'
     'ctrl-a': 'editor:move-to-beginning-of-line'
     'ctrl-b': 'core:move-left'
+    'ctrl-d': 'core:delete'
     'ctrl-e': 'editor:move-to-end-of-screen-line'
     'ctrl-f': 'core:move-right'
     'ctrl-g': 'core:cancel'
