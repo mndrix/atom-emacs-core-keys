@@ -85,6 +85,7 @@
     'ctrl-b': 'core:move-left'
     'ctrl-e': 'editor:move-to-end-of-screen-line'
     'ctrl-f': 'core:move-right'
+    'ctrl-d': 'core:delete'
     'ctrl-g': 'core:cancel'
     'ctrl-j': 'editor:newline'
     'ctrl-r': 'find-and-replace:show'
