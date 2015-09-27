@@ -30,8 +30,6 @@
     'alt-w': 'core:copy'
     'alt-x': 'command-palette:toggle'
     'ctrl-n': 'core:move-down'
-    'ctrl-p': 'core:move-up'
-    'ctrl-w': 'core:cut'
     'ctrl-x 0': 'pane:close'
     'ctrl-x 1': 'pane:close-other-items'
     'ctrl-x 2': 'pane:split-down'
@@ -62,7 +60,7 @@
     "ctrl-k ctrl-9": "unset!"
 
 
-'atom-text-editor':
+'.platform-linux atom-workspace atom-text-editor, atom-text-editor':
     # recreate emacs bindings
     'alt-;': 'editor:toggle-line-comments'
     'alt-.': 'symbols-view:toggle-file-symbols'
@@ -81,10 +79,12 @@
     'alt-v': 'core:page-up'
     'ctrl-_': 'core:undo'
     'ctrl-/': 'core:undo'
+    'ctrl-p': 'core:move-up'
     'ctrl-a': 'editor:move-to-beginning-of-line'
     'ctrl-b': 'core:move-left'
     'ctrl-e': 'editor:move-to-end-of-screen-line'
     'ctrl-f': 'core:move-right'
+    'ctrl-d': 'core:delete'
     'ctrl-g': 'core:cancel'
     'ctrl-j': 'editor:newline'
     'ctrl-r': 'find-and-replace:show'
