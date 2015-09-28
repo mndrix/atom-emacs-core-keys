@@ -10,6 +10,10 @@
     # disable default ctrl-k keybindings
     'ctrl-k ctrl-d': 'unset!'
 
+    # disable bindings from find-and-replace package
+    'ctrl-d': 'unset!'
+    'ctrl-e': 'unset!'
+
 
 'body':
     # disable default ctrl-k keybindings
