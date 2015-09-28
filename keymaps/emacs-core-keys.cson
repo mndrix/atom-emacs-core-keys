@@ -47,22 +47,6 @@
     "ctrl-k ctrl-u": "unset!"
     "ctrl-k ctrl-l": "unset!"
 
-
-"atom-workspace atom-text-editor:not([mini])":
-    # disable default ctrl-k keybindings
-    "ctrl-k ctrl-0": "unset!"
-    "ctrl-k ctrl-1": "unset!"
-    "ctrl-k ctrl-2": "unset!"
-    "ctrl-k ctrl-3": "unset!"
-    "ctrl-k ctrl-4": "unset!"
-    "ctrl-k ctrl-5": "unset!"
-    "ctrl-k ctrl-6": "unset!"
-    "ctrl-k ctrl-7": "unset!"
-    "ctrl-k ctrl-8": "unset!"
-    "ctrl-k ctrl-9": "unset!"
-
-
-'atom-text-editor':
     # recreate emacs bindings
     'alt-;': 'editor:toggle-line-comments'
     'alt-.': 'symbols-view:toggle-file-symbols'
@@ -103,3 +87,16 @@
     # disabled because the semantics are slightly different than emacs
     #'ctrl-l': 'editor:scroll-to-cursor'
     #'ctrl-o': 'editor:newline-above'
+
+"atom-workspace atom-text-editor:not([mini])":
+    # disable default ctrl-k keybindings
+    "ctrl-k ctrl-0": "unset!"
+    "ctrl-k ctrl-1": "unset!"
+    "ctrl-k ctrl-2": "unset!"
+    "ctrl-k ctrl-3": "unset!"
+    "ctrl-k ctrl-4": "unset!"
+    "ctrl-k ctrl-5": "unset!"
+    "ctrl-k ctrl-6": "unset!"
+    "ctrl-k ctrl-7": "unset!"
+    "ctrl-k ctrl-8": "unset!"
+    "ctrl-k ctrl-9": "unset!"
