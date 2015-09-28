@@ -2,6 +2,9 @@
     # disable default ctrl-k keybindings
     'ctrl-k ctrl-b': 'unset!'
 
+    # disable bindings from fuzzy-finder package
+    'ctrl-p': 'unset!'
+
     # recreate emacs bindings
     'ctrl-g': 'core:cancel'
 
