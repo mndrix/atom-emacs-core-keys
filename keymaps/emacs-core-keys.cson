@@ -2,8 +2,8 @@
     # disable default ctrl-k keybindings
     'ctrl-k ctrl-b': 'unset!'
 
-    # disable bindings from fuzzy-finder package
-    'ctrl-p': 'unset!'
+    # override bindings from fuzzy-finder package
+    'ctrl-p': 'core:move-up'
 
     # recreate emacs bindings
     'ctrl-g': 'core:cancel'
@@ -13,9 +13,9 @@
     # disable default ctrl-k keybindings
     'ctrl-k ctrl-d': 'unset!'
 
-    # disable bindings from find-and-replace package
-    'ctrl-d': 'unset!'
-    'ctrl-e': 'unset!'
+    # override bindings from find-and-replace package
+    'ctrl-d': 'core:delete'
+    'ctrl-e': 'editor:move-to-end-of-screen-line'
 
 
 'body':
@@ -37,7 +37,6 @@
     'alt-w': 'core:copy'
     'alt-x': 'command-palette:toggle'
     'ctrl-n': 'core:move-down'
-    'ctrl-p': 'core:move-up'
     'ctrl-w': 'core:cut'
     'ctrl-x 0': 'pane:close'
     'ctrl-x 1': 'pane:close-other-items'
@@ -74,8 +73,6 @@
     'ctrl-/': 'core:undo'
     'ctrl-a': 'editor:move-to-beginning-of-line'
     'ctrl-b': 'core:move-left'
-    'ctrl-d': 'core:delete'
-    'ctrl-e': 'editor:move-to-end-of-screen-line'
     'ctrl-f': 'core:move-right'
     'ctrl-g': 'core:cancel'
     'ctrl-j': 'editor:newline'
